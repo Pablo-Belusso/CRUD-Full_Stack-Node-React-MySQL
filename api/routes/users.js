@@ -1,9 +1,11 @@
-import express, { Router } from "express";
-import { getUsers } from "../controllers/user.js"
+
+import express from "express";
+
+import { getUsers } from "../controllers/user.js";
 
 
-const rotas = express.Router();
+const router = express.Router();
 
-rotas.get("/", getUsers);
+router.get("/", getUsers);
 
-export default rotas;
+export default router;
