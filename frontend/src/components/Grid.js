@@ -4,6 +4,9 @@ import styled from "styled-components";
 import { FaTrash, FaEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
 
+
+// ESTILIZAÇÃO DAS TAGS --------------------------------------------
+
 const Table = styled.table`
   width: 100%;
   background-color: #fff;
@@ -41,6 +44,11 @@ export const Td = styled.td`
   }
 `;
 
+// ESTILIZAÇÃO DAS TAGS --------------------------------------------
+
+
+//  FUNÇÃO GRID --------------
+
 const Grid = ({ users, setUsers, setOnEdit }) => {
   const handleEdit = (item) => {
     setOnEdit(item);
@@ -61,7 +69,9 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
   };
 
   return (
+    
     <Table>
+
       <Thead>
         <Tr>
           <Th>Nome</Th>
@@ -71,6 +81,8 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
           <Th></Th>
         </Tr>
       </Thead>
+
+
       <Tbody>
         {users.map((item, i) => (
           <Tr key={i}>
@@ -88,6 +100,8 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
           </Tr>
         ))}
       </Tbody>
+
+
     </Table>
   );
 };
