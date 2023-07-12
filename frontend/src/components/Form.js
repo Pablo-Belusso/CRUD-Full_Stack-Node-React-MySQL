@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 
+
 const FormContainer = styled.form`
 
     display: flex;
@@ -33,6 +34,19 @@ const Input = styled.input`
 const Label = styled.input``;
 
 
+const Button = styled.button`
+
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color:#2c73d2;
+    color: white;
+    height: 42px;
+
+`;
+
+
 const Form = ({ onEdit }) => {
     const ref = useRef();
 
@@ -40,22 +54,22 @@ const Form = ({ onEdit }) => {
         <FormContainer ref={ref}>
 
             <InputArea>
-                <label>Nome</label>
+                <Label>Nome</Label>
                 <Input name="nome" />
             </InputArea>
 
             <InputArea>
-                <label>E-mail</label>
+                <Label>E-mail</Label>
                 <Input name="email" type="email" />
             </InputArea>
 
             <InputArea>
-                <label>Telefone</label>
+                <Label>Telefone</Label>
                 <Input name="fone" />
             </InputArea>
 
             <InputArea>
-                <label>Data de Nascimento</label>
+                <Label>Data de Nascimento</Label>
                 <Input name="data_nascimento" type="date" />
             </InputArea>
 
