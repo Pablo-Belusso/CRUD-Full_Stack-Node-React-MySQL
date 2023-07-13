@@ -4,7 +4,7 @@
 
 <div align="center">
 
-https://github.com/Pablo-Belusso/CRUD-Full_Stack-Node-React-MySQL/assets/121649838/0e1e7b7f-f40d-4cb7-ad47-9ac50a196954
+https://github.com/Pablo-Belusso/CRUD-Full_Stack-Node-React-MySQL/assets/121649838/658a065d-d4b1-4399-8869-5b2b4db3cb73
 
 </div>
 
