@@ -61,7 +61,7 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
         const newArray = users.filter((user) => user.id !== id);
 
         setUsers(newArray);
-        toast.success(data);
+        toast.success(data); // para ficar verdinho a informação
       })
       .catch(({ data }) => toast.error(data));
 
@@ -77,6 +77,7 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
           <Th>Nome</Th>
           <Th>Email</Th>
           <Th onlyWeb>Fone</Th>
+          <Th onlyWeb>Nascimento</Th>
           <Th></Th>
           <Th></Th>
         </Tr>
@@ -92,9 +93,9 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
               {item.fone}
             </Td>
 
-            {/* <Td width="15%">
+            <Td width="15%">
                 {item.data_nascimento}
-            </Td> */}
+            </Td>
 
             <Td alignCenter width="5%">
               <FaEdit onClick={() => handleEdit(item)} />
