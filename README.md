@@ -10,8 +10,8 @@ https://github.com/Pablo-Belusso/CRUD-Full_Stack-Node-React-MySQL/assets/1216498
 
 ### Sobre
 
-O projeto consiste em um CRUD Full Stack de cadastro de usuários, onde o backend será em NODE JS, frontend em REACT JS e o MySQL como banco de dados.
+O projeto consiste em um CRUD Full Stack de cadastro de usuários, onde o backend foi em NODE JS, o frontend em REACT JS e o banco de dados em MySQL.
 
 ### About
 
-The project consists of a CRUD Full Stack for user registration, where the backend will be in NODE JS, frontend in REACT JS and MySQL as the database.
+The project consists of a CRUD Full Stack of user registration, where the backend was in NODE JS, the frontend in REACT JS and the database in MySQL.
